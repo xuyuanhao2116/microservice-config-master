@@ -16,7 +16,7 @@ eureka:
   client:
     register-with-eureka: false
     service-url: 
-      defaultZone: http://localhost:9001/eureka
+      defaultZone:  http://localhost:9003/eureka/,http://localhost:9002/eureka/,http://localhost:9001/eureka/
 
 ---
 server: 
@@ -31,4 +31,4 @@ eureka:
   client:
     register-with-eureka: false
     service-url: 
-      defaultZone: http://localhost:9001/eureka
+      defaultZone: http://localhost:9003/eureka/,http://localhost:9002/eureka/,http://localhost:9001/eureka/
